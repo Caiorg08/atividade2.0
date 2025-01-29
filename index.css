@@ -1,0 +1,180 @@
+header {
+    background-color: #333;
+    padding: 0;
+    text-align: center;
+    opacity: 1;
+}
+
+header img {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+
+
+input {
+    color: black;
+    border-radius: 5px;
+}
+
+
+
+table,
+th,
+td {
+   
+    border-color: #000000 3px;
+    margin-left: 25%;
+    border-radius: 8%;
+    border:4px solid;
+    text-align: center;
+
+
+}
+th,td,tr{
+    border-color: aliceblue;
+    border: solid;
+    outline: #fffafa 3px double ;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+  
+    width: 100%;
+    bottom: 0;
+    
+    height: 1%;
+
+}
+.footImg{
+    display: inline-block;
+    padding: 10px;
+
+}
+footer a{
+    color: #fffafa;
+   
+   
+}
+
+
+
+body {
+    background: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*
+    background-image: url('https://apostas.gazetaesportiva.com/static/wp/article-atletico-mineiro-gazeta.webp');*/
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+a {
+    color: aliceblue;
+}
+
+#main {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+.form-grupo{
+    display: flex;
+    justify-content: center;
+}
+
+.tabladv{
+    
+width: 50%;
+height:40% ;
+margin: 0 auto;
+position: inherit;
+}
+
+#transsi{
+    color: #fffafa;
+
+   
+    
+   
+   
+}
+#transsi :hover{
+    color: green;
+    transition: 3.6;
+   
+}
+#transformers{
+    color: #fffafa;
+}
+#transformers :hover{
+    color: blue;
+}
+
+#slasla {
+    background-color: #444;
+    padding: 15px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#slasla a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    opacity: none;
+  
+}
+
+#slasla a:hover {
+    background-color: #555;
+}
+
+#centerimg{
+    text-align: center;
+    display: flex;
+    padding-left: 300px;
+}
+
